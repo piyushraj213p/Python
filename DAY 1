@@ -1,0 +1,45 @@
+# printing consol in python
+print("hello world!")
+
+# sting concatenation
+print("hello" + "world!")
+print("hello " + "world!")
+print("Piyush" + " " + "Raj")
+# \n is used to print the string below the other 
+print("hello world!\nhello world!\nhello world!")
+
+# Input function input()
+input("What is your name?")
+
+print("Hello " + input("What is your name?") + "!")
+
+# VARIABLES
+# Variables is name = like piyush, sam, vihan, rudra, misti, etc.
+name = "Piyush"
+print(name)
+
+name="Sam"
+print(name)
+
+name = input("What is your name?")
+print(name)
+
+# length of user input length function len()
+name="Vihan"
+print(name)
+print(len(name))
+
+n = "♧◇♡♤■□●○●□■♤♡◇♧"
+l = len(n)
+print(n)
+print(l)
+
+name = input("What is your name?")
+print(name) 
+print(len(name))
+# or
+print(len(input("Name bataiye apna?")))
+
+username = input("What is your name?")
+length = len(username)
+print(length)
