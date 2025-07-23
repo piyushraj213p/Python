@@ -1,0 +1,114 @@
+#subscripting
+print("Hello"[0])
+print(" hum nhi jayenge"[9])
+print("hum jayenge hi toh"[-5])
+
+#String
+print("6789" + "546" + "dump")
+
+#Integer will be whole number
+print(345 + 66)
+
+#large integer
+print(56589_568_999)
+
+#Float is floating point number or decimal number
+print(57797.78)
+
+#Boolean capital T or F
+print(False)
+print(True)
+
+#len(657679745) are integer so it doesn't work we can use string in place of it i.e.
+len("Hum hai khalnayak")
+len("6587978")
+len("6767fgf6776f7898")
+
+#to identify which type of data we use print(type())
+print(type(" hum hai khalnayak"))
+print(type(4667687))
+print(type(43557.767))
+print(type(689_467.577))
+print(type(788_578_899))
+print(type("457858"))
+print(type(False))
+print(type("False"))
+
+#type conversion
+print("6778" + "67783")
+int("7738071")
+print(int("6788") + int("677"))
+print(float("8899.89008") + int("8967"))
+print(str(578578796976796976697697697696796976796976778))
+int()
+float()
+str()
+bool()
+
+#
+#correct the error of print("Number of letters in your name :- " + len(input("Enter your name :- ")))
+# first we will break it into parts
+name = input("Enter your name :- ")
+length = len(name)
+
+#find which is integer or string or boolen or float from the question
+print(type("Number of letters in your name :- ")) #for str
+print (type(length)) #or print(type(len(input("Enter your name :- ")))) #for int
+
+print("Number of letters in your name :- " + str(length))
+
+print("Number of letters in your name :- " + str(len(input("Enter your name :- "))))
+
+print("Your age:- " + str(input("What is your age? ")))
+
+#MATHEMATICAL CALCULATION
+print(567 + 4599) #addition
+print(314 - 79) #subtraction
+print(15 * 6) #multiplication
+print(57 / 5) #division
+print(59 // 19) #division result without decimal
+print(4 ** 3) #sqare root
+print(4 / 78 * 99 / 5 + 468 - 56 / 7 + 46 * 6)
+#change code print(3 * 3 + 3 / 3 - 3) fir output 3 
+print(3 * (3 + 3) / 3 - 3)
+
+#NUMBER MANIPULATION
+#BMI calculator
+bmi = 89 / 1.89 ** 2
+print(bmi)
+
+#Flooring a number (lower rounf figure of decimal)
+print(int(bmi))
+
+#Rounding a number (exect round figure)
+print(round(bmi))
+print(round(bmi, 2)) #round upto 2 digit decimal point
+
+#Assignment Operator
+# user score
+score = 49
+score += 1
+print(score)
+
+score = 39
+score -= 9
+print(score)
+
+score = 909
+score *= 2
+print(score)
+
+score = 58
+score /= 14
+print(score)
+
+#f-string
+weight = 76
+print("You are " + str(weight) + " kg.") #too complicated
+print(f"You are {weight} kg.") #using f-string
+
+score = 354
+winning_percent = 76
+winning_condition = True
+print("Your score is " + str(score) + ". " + "Chance of wiining is " + str(winning_percent) + " percentage. " + "You are winning is " + str(True) + ".") #too complicated
+print(f"Your score is {score}. Chance of winning is {winning_percent} percentage. You are winning is {True}.") #using f-string
