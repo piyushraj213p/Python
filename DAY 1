@@ -14,7 +14,7 @@ input("What is your name?")
 print("Hello " + input("What is your name?") + "!")
 
 # VARIABLES
-# Variables is name = like piyush, sam, vihan, rudra, misti, etc.
+# Variables is name = like piyush, sam, vihan, rudra, etc.
 name = "Piyush"
 print(name)
 
